@@ -6,7 +6,7 @@ int main() {
 
     int number;
 
-    printf("Enter an integer: ");
+    printf("Enter any integer: ");
 
     scanf("%d", &number);
 
