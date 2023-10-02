@@ -24,6 +24,7 @@ void quicksort(int number[25],int first,int last){
    }
 }
 int main(){
+   //vikash
    int i, count, number[25];
    printf("How many elements are you going to enter?: ");
    scanf("%d",&count);
