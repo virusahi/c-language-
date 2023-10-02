@@ -4,17 +4,17 @@
 
 int main() {
 
-    int number;
+    int n;
 
     printf("Enter any integer: ");
 
-    scanf("%d", &number);
+    scanf("%d", &n);
 
     // true if number is less than 0
 
-    if (number < 0) {
+    if (n < 0) {
 
-        printf("You entered %d.\n", number);
+        printf("You entered %d.\n", n);
 
     }
 
