@@ -1,6 +1,6 @@
 ## Getting Started 🤩🤗
 
-1. Fork this repository.
+1. Fork this repository .
 2. Clone on the repository to your local machine
 
     ```
