@@ -10,7 +10,7 @@ int main() {
 
     scanf("%d", &n);
 
-    // true if number is less than 0
+  
 
     if (n < 0) {
 
