@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include<math.h>
+float areaofsq(float side);
+float areaofrt(float len,float bre);
+float areaofcl(float radius);
+int main(){
+    int sq,l,b,radius;
+    printf("enter the side of square\n");
+    scanf("%d",&sq);
+    printf("area of square is:%f\n",areaofsq(sq));
+    printf("enter the length and breadth of rectangle\n");
+    scanf("%d %d",&l,&b);
+    printf("area os rectangle  is:%f\n",areaofrt(l,b));
+    printf("enter the radius of circle");
+    scanf("%d",&radius);
+    printf("area of circle is:%f\n",areaofcl(radius));
+     return 0;
+}
+float areaofsq(float s){
+    return s*s;
+}
+float areaofrt(float len,float bre){
+    return len*bre;
+}
+float areaofcl(float rad){
+    return 3.14*rad*rad;
+}
